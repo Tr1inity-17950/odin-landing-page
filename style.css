@@ -1,6 +1,7 @@
 body, html {
     margin: 0px;
     padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -112,3 +113,62 @@ b-cta p {
     padding: 0px 200px;
 }
 
+.quote p {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.s-box-text {
+    text-align: left;
+}
+
+.s-item {
+    flex: 1;
+}
+
+.s-box-text h3 {
+    color: #fff;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.s-box-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+.s-box-button button {
+    text-align: center;
+    color: #f9faf8;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.footer  {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
